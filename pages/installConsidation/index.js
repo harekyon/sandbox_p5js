@@ -16,8 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h3>始める前に</h3>
-        <Link href="/installConsidation/">導入・実装方法のパターン</Link>
+        <h3>導入方法の検討</h3>
+        <Link href="./IC1_page_moduled">scriptタグで呼び出す方法</Link>
+        <br />
+        <Link href="./IC2_page_require">requireで呼び出す方法</Link>
       </main>
     </>
   );
