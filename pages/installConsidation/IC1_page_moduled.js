@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 import Script from "next/script";
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <Script src="https://cdn.jsdelivr.net/npm/p5@1.9.1/lib/p5.js"></Script>
       <Script src="/installConsidation/IC1_moduled.js"></Script>
       <main id="content" className={styles.main}>
+        <h1>従来の方法</h1>
         <p>普通にscriptタグでライブラリを読み込みスクリプトを呼び出す</p>
       </main>
     </>

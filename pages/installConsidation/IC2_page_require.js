@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 // import * as p5 from "p5";
 import { useEffect } from "react";
 
@@ -27,7 +27,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main id="content" className={styles.main}></main>
+      <main id="content" className={styles.main}>
+        <h1>Next実装の場合</h1>
+        <p>useEffect内でp5をrequireし、インスタンス化して使う</p>
+      </main>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,9 +17,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h3>導入方法の検討</h3>
-        <Link href="./IC1_page_moduled">scriptタグで呼び出す方法</Link>
+        <Link href="/installConsidation/IC1_page_moduled">scriptタグで呼び出す方法</Link>
         <br />
-        <Link href="./IC2_page_require">requireで呼び出す方法</Link>
+        <Link href="/installConsidation/IC2_page_require">requireで呼び出す方法</Link>
       </main>
     </>
   );
