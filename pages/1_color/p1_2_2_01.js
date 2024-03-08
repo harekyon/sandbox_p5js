@@ -11,7 +11,7 @@ export default function Home() {
     let flag = true;
     new p5((p) => {
       p.preload = () => {
-        img.current = p.loadImage("sample/sample.jpg");
+        img.current = p.loadImage("/1_generativeDesign/sample.jpg");
       };
       p.setup = () => {
         p.createCanvas(window.innerWidth - 100, window.innerHeight - 100);
@@ -39,10 +39,6 @@ export default function Home() {
             colors.current.push(c);
           }
         }
-        // if (flag) {
-        //   console.log(colors.current);
-        //   flag = false;
-        // }
         sortColors(colors.current, sortMode.current, p);
 
         let i = 0;
@@ -60,10 +56,11 @@ export default function Home() {
           p.writeFile([aseEncode(colors.current)], timestamp(), "ase");
         if (p.key == "s" || p.key == "S") p.saveCanvas(timestamp(), "png");
 
-        if (p.key == "1") p.loadImage("sample/pic1.jpg", setImage);
-        if (p.key == "2") p.loadImage("sample/pic2.jpg", setImage);
-        if (p.key == "3") p.loadImage("sample/pic3.jpg", setImage);
-        if (p.key == "4") p.loadImage("sample/pic4.jpg", setImage);
+        if (p.key == "0") p.loadImage("/1_generativeDesign/picSakamoto2.jpg", setImage);
+        if (p.key == "1") p.loadImage("/1_generativeDesign/pic1.jpg", setImage);
+        if (p.key == "2") p.loadImage("/1_generativeDesign/pic2.jpg", setImage);
+        if (p.key == "3") p.loadImage("/1_generativeDesign/pic3.jpg", setImage);
+        if (p.key == "4") p.loadImage("/1_generativeDesign/pic4.jpg", setImage);
 
         if (p.key == "5") sortMode.current = null;
         if (p.key == "6") sortMode.current = "hue";
@@ -78,19 +75,6 @@ export default function Home() {
     }, "#canvas");
   }, []);
 
-  // useEffect(() => {
-  //   const p5 = require("p5");
-  //   new p5((p) => {
-  //     p.setup = () => {
-  //       p.createCanvas(400, 400);
-  //       p.background(0);
-  //     };
-  //     p.draw = () => {
-  //       p.background(0);
-  //       p.ellipse(p.mouseX, p.mouseY, 40, 40);
-  //     };
-  //   }, "canvas");
-  // }, []);
   return (
     <>
       <Head>
