@@ -4,8 +4,6 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.scss";
 import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
@@ -16,8 +14,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <h1>p5.js</h1>
         <h3>始める前に</h3>
         <Link href="/installConsidation/">導入・実装方法のパターン</Link>
+        <h3>1.color</h3>
+        <h3>2.image</h3>
+        <ul>
+          <li>
+            <a href="/2_image">image</a>
+          </li>
+        </ul>
       </main>
     </>
   );

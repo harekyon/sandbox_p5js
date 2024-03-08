@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@next/font": "14.1.2",
+    "ase-utils": "^0.1.1",
+    "chroma-js": "^2.4.2",
     "next": "14.1.2",
     "p5": "^1.9.1",
     "react": "18.2.0",
