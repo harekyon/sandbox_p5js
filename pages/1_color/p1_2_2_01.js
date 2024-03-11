@@ -85,6 +85,14 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h3>画像で作るカラーパレット</h3>
+        <h4>画像選択</h4>
+        <div>key0:pic1, key1:pic2, key2:pic3, key3:pic4, key4:pic5</div>
+        <h4>カラーソートメソッド</h4>
+        <div>
+          key5:SortMethod(null), key6:SortMethod(HUE), key7:SortMethod(SATURATION)
+          <br />
+          key8:SortMethod(BRIGHTNESS), key9:GRAYSCALE
+        </div>
         {/* <Link href="/installConsidation/">導入・実装方法のパターン</Link> */}
         <cancas id="canvas"></cancas>
       </main>

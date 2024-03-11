@@ -18,6 +18,17 @@ export default function Home() {
         <h3>始める前に</h3>
         <Link href="/installConsidation/">導入・実装方法のパターン</Link>
         <h3>1.color</h3>
+        <ul>
+          <li>
+            <a href="/1_color/p1_2_2_01">画像で作るカラーパレット(p1_2_2_01)</a>
+          </li>
+          <li>
+            <a href="/1_color/p1_2_3_01">ルールで作るカラーパレット(p1_2_3_01)</a>
+          </li>
+          <li>
+            <a href="/1_color/p1_2_3_02">p1_2_3_02</a>
+          </li>
+        </ul>
         <h3>2.image</h3>
         <ul>
           <li>
