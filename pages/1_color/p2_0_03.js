@@ -56,7 +56,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h3>random rect, random color</h3>
+        <h3>Hello Shape3</h3>
         <div>key1:black, key2:blue, key3:yellow, key4:green, key5:red</div>
         <cancas id="canvas"></cancas>
       </main>

@@ -26,13 +26,19 @@ export default function Home() {
             <a href="/1_color/p1_2_3_01">ルールで作るカラーパレット(p1_2_3_01)</a>
           </li>
           <li>
-            <a href="/1_color/p1_2_3_02">p1_2_3_02</a>
+            <a href="/1_color/p1_2_3_02">random rect, random color(p1_2_3_02)</a>
           </li>
         </ul>
         <h3>2.image</h3>
         <ul>
           <li>
-            <a href="/2_image">image</a>
+            <a href="/1_color/p2_0_01">Hello Shape1</a>
+          </li>
+          <li>
+            <a href="/1_color/p2_0_02">Hello Shape2</a>
+          </li>
+          <li>
+            <a href="/1_color/p2_0_03">Hello Shape3</a>
           </li>
         </ul>
       </main>
