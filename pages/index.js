@@ -14,10 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>p5.js</h1>
+        <h1>p5.js x next</h1>
         <h3>始める前に</h3>
         <Link href="/installConsidation/">導入・実装方法のパターン</Link>
-        <h3>1.color</h3>
+        <h3>1.色</h3>
         <ul>
           <li>
             <a href="/1_color/p1_2_2_01">画像で作るカラーパレット(p1_2_2_01)</a>
@@ -29,16 +29,30 @@ export default function Home() {
             <a href="/1_color/p1_2_3_02">random rect, random color(p1_2_3_02)</a>
           </li>
         </ul>
-        <h3>2.image</h3>
+        <h3>2.形</h3>
         <ul>
           <li>
-            <a href="/1_color/p2_0_01">Hello Shape1</a>
+            <a href="/1_color/p2_0_01">Hello Shape1(p2_0_01)</a>
           </li>
           <li>
-            <a href="/1_color/p2_0_02">Hello Shape2</a>
+            <a href="/1_color/p2_0_02">Hello Shape2(p2_0_02)</a>
           </li>
           <li>
-            <a href="/1_color/p2_0_03">Hello Shape3</a>
+            <a href="/1_color/p2_0_03">Hello Shape3(p2_0_03)</a>
+          </li>
+          <li>
+            <a href="/1_color/p2_1_1_01">グリッドと整列1(p2_1_1_01)</a>
+          </li>
+          <li>グリッドと整列2(p2_1_1_02)</li>
+          <li>グリッドと整列3(p2_1_1_03)</li>
+          <li>
+            <a href="/1_color/p2_1_1_04">グリッドと整列4(p2_1_1_04)</a>
+          </li>
+          <li>
+            <a href="/1_color/p2_1_2_01">グリッドと動き1(p2_1_2_01)</a>
+          </li>
+          <li>
+            <a href="/1_color/p2_1_2_02">グリッドと動き2(p2_1_2_02)</a>
           </li>
         </ul>
       </main>
