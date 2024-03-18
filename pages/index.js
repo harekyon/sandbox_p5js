@@ -32,27 +32,39 @@ export default function Home() {
         <h3>2.形</h3>
         <ul>
           <li>
-            <a href="/1_color/p2_0_01">Hello Shape1(p2_0_01)</a>
+            <a href="/2_shape/p2_0_01">Hello Shape1(p2_0_01)</a>
           </li>
           <li>
-            <a href="/1_color/p2_0_02">Hello Shape2(p2_0_02)</a>
+            <a href="/2_shape/p2_0_02">Hello Shape2(p2_0_02)</a>
           </li>
           <li>
-            <a href="/1_color/p2_0_03">Hello Shape3(p2_0_03)</a>
+            <a href="/2_shape/p2_0_03">Hello Shape3(p2_0_03)</a>
           </li>
           <li>
-            <a href="/1_color/p2_1_1_01">グリッドと整列1(p2_1_1_01)</a>
+            <a href="/2_shape/p2_1_1_01">グリッドと整列1(p2_1_1_01)</a>
           </li>
           <li>グリッドと整列2(p2_1_1_02)</li>
           <li>グリッドと整列3(p2_1_1_03)</li>
           <li>
-            <a href="/1_color/p2_1_1_04">グリッドと整列4(p2_1_1_04)</a>
+            <a href="/2_shape/p2_1_1_04">グリッドと整列4(p2_1_1_04)</a>
           </li>
           <li>
-            <a href="/1_color/p2_1_2_01">グリッドと動き1(p2_1_2_01)</a>
+            <a href="/2_shape/p2_1_2_01">グリッドと動き1(p2_1_2_01)</a>
           </li>
           <li>
-            <a href="/1_color/p2_1_2_02">グリッドと動き2(p2_1_2_02)</a>
+            <a href="/2_shape/p2_1_2_02">グリッドと動き2(p2_1_2_02)</a>
+          </li>
+          <li>
+            <a href="/2_shape/p2_1_2_03">グリッドと動き3(p2_1_2_03)</a>
+          </li>
+          <li>
+            <a href="/2_shape/p2_1_2_04">グリッドと動き4(p2_1_2_04)</a>
+          </li>
+          <li>
+            <a href="/2_shape/p2_1_3_01">グリッドと複合モジュール1(p2_1_3_01)</a>
+          </li>
+          <li>
+            <a href="/2_shape/p2_1_3_02">グリッドと複合モジュール2(p2_1_3_02)</a>
           </li>
         </ul>
       </main>

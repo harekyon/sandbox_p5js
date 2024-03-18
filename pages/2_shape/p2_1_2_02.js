@@ -142,7 +142,11 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h3>グリッドと動き2(p2_1_2_02)</h3>
+        <div>
+          1:背面のシェイプに色をつける, 2:前面のシェイプに色をつける, 3:透明度を追加,
+        </div>
         <div>s:save png, クリック:再配置</div>
+        <div>↑↓：幅調整, ←→：高さ調整</div>
         <cancas id="canvas"></cancas>
       </main>
     </>
